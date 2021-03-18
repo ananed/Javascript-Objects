@@ -60,7 +60,7 @@ const unhealthyShoppingList = [orange, snikers, banana, gummyBears];
 
 // 2.5.1 Filter fruits from the shopping list
 // TODO: create a new shopping list by removing the sweets with a filter
-function healtyFoodFilter(productList) {
+function healtyFoodFilter(product) {
   return product.category !== "sweets";
 }
 
